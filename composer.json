@@ -1,14 +1,14 @@
 {
-  "name": "laravel/shopify",
-  "description": "Shopify PHP SDK to interact with the Shopify API.",
-  "require": {
-    "guzzlehttp/guzzle": "~7.0",
-    "php": ">=7.1"
-  },
-  "autoload": {
-    "psr-0": {
-      "Shopify\\": "src/"
-    }
-  },
-  "license": "MIT"
+   "name": "laravelshopify/api",
+   "description": "Shopify PHP SDK to interact with the Shopify API.",
+   "require": {
+      "guzzlehttp/guzzle": "~7.0",
+      "php": ">=7.1"
+   },
+   "autoload": {
+      "psr-0": {
+         "Shopify\\": "src/"
+      }
+   },
+   "license": "MIT"
 }
