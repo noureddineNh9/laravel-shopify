@@ -1,8 +1,7 @@
 # Shopify PHP SDK
 A simple Shopify PHP SDK for private apps to easily interact with the Shopify API.  
-[![Travis Build Status](https://travis-ci.org/donutdan4114/shopify.svg?branch=master)](https://travis-ci.org/donutdan4114/shopify)
 
-[Shopify API Documentation](https://docs.shopify.com/api) | [Packagist](https://packagist.org/packages/donutdan4114/shopify) | [Build Status](https://travis-ci.org/donutdan4114/shopify)
+[Shopify API Documentation](https://docs.shopify.com/api) | [Packagist]([https://packagist.org/packages/donutdan4114/shopify](https://packagist.org/packages/laravelshopify/api))
 
 Features include:
 
@@ -11,14 +10,14 @@ Features include:
 * automatic rate limiting to avoid API calls from erroring
 
 ## Setup/Installation
-Depends on [guzzlehttp/guzzle](https://packagist.org/packages/guzzlehttp/guzzle).  
+Depends on [guzzlehttp/guzzle 7.*](https://packagist.org/packages/guzzlehttp/guzzle).  
 Get via Composer...
 
 Get a stable release:  
-`composer require donutdan4114/shopify:v2020.01.*`
+`composer require laravelshopify/api:1.0.0
 
 Get the latest unstable version:  
-`composer require donutdan4114/shopify:dev-master`
+`composer require  laravelshopify/api:dev-master`
 
 ## API Versions
 This package now includes versions that match Shopify's API version naming convention.
@@ -26,7 +25,8 @@ Version format is `vYYYY.MM.V#` where increasing the `V#` will not break backwar
 Check the changelog in releases to see what changes may break backwards compatability.
 
 
-## New in Version 2020.01
+## New in Version 1.0.0
+update guzzlehttp from 6.0 to 7.*
 This update utilizes the new pagination system in the Shopify API. The `page` query param is no longer supported.
 The "resource pager" which automatically loops through pages will handle this change automatically for you.
 
