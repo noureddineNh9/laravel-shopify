@@ -14,7 +14,7 @@ Depends on [guzzlehttp/guzzle 7.*](https://packagist.org/packages/guzzlehttp/guz
 Get via Composer...
 
 Get a stable release:  
-`composer require laravelshopify/api:1.0.0
+`composer require laravelshopify/api:1.0.0`
 
 Get the latest unstable version:  
 `composer require  laravelshopify/api:dev-master`
